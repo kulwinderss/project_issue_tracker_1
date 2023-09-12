@@ -7,6 +7,8 @@ const sassMiddlWare=require('node-sass-middleware')
 app.use(express.urlencoded());
 const mongoose=require('mongoose');
 
+
+//database connection
 mongoose.connect("mongodb://127.0.0.1:27017/project_issue_tracker", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -25,7 +27,7 @@ app.use(
     })
 );
     
-    
+    //loading layouts
 app.use(express.static('./assets'));
 app.use(ejsexpresslayout);
 app.set('layout extractStyles',true);
