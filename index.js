@@ -7,7 +7,7 @@ const sassMiddlWare=require('node-sass-middleware')
 app.use(express.urlencoded());
 const mongoose=require('mongoose');
 
-mongoose.connect("mongodb://localhost:27017/project_issue_tracker", {
+mongoose.connect("mongodb://127.0.0.1:27017/project_issue_tracker", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
