@@ -1,0 +1,28 @@
+{
+  "name": "issue_tracker",
+  "version": "1.0.0",
+  "homepage": "https://kulwinderss.github.io/project_issue_trackern",
+  "description": "issueTracker using nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
+    "start":"java-scripts start",
+    "build":"java-scripts build",
+        
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kulwinder",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.9.1",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1",
+    "sass": "^1.66.1"
+  }
+}
