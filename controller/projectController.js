@@ -27,6 +27,7 @@ module.exports.create= function(req,res){
     )
 }
 
+//create issue for project
 module.exports.projectIssue= async function(req,res){
     console.log('req.query.projectid',req.query.projectid)
     //find clicked project id and print on console
