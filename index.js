@@ -9,7 +9,7 @@ const mongoose=require('mongoose');
 
 
 //database connection
-mongoose.connect("mongodb://127.0.0.1:27017/project_issue_tracker", {
+mongoose.connect("mongodb+srv://kulwinderskvbrgh:kulwinderskvbrgh@cluster0.y9kdwg9.mongodb.net/project_issue_tracker?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
